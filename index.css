@@ -1,34 +1,51 @@
 * {
   font-family: sans-serif;
+;
 }
 .row-1 {
-  height: 160px;
+  height: 100px;
   width: 1280px;
-  background-color: rgb(70, 152, 206);
+  background-color: #00BCD4;
 }
 .row-2 {
-  height: 380px;
+  height: 300px;
   width: 1280px;
-  background-color: rgb(59, 135, 182);
+  background-color: #00a5bb;
+
+
 }
+
+.calendar{
+  width:1000px;
+}
+
+
 
 .row-3 {
   height: 80px;
   width: 1280px;
-  background-color: rgb(57, 117, 156);
+  background-color: #008fa1;
+
+
   text-align: center;
 }
 
 .btn-1 {
   float: right;
   margin-top: 10px;
-  margin-right: 5px;
-  background-color: rgb(70, 152, 206);
+  margin-right: 20px;
+  background-color: #008fa1;
+
   color: white;
-  border: 0;
+  border:1px solid #00BCD4;
   padding: 5px 10px;
-  font-weight: bold;
-  border: 1px solid rgb(59, 135, 182);
+  padding: 10px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+
+.btn-1:hover{
+  background-color: #00BCD4;
 }
 
 .icons-top {
@@ -37,11 +54,37 @@
   color: white;
 }
 
+.fa-gi{
+  color: white !important;
+}
+
+.card-title{
+  color: teal;
+  font-family:mistral
+}
+
+.card-text{
+  font-family: monospace;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.fa-github{
+  color: teal;
+}
+
+.stack-text{
+  margin-top: 7px;
+  color: rgb(57, 117, 156);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
 .my-image {
-  height: 150px;
-  width: 150px;
-  border-radius: 75px;
-  border: 4px solid white;
+  height: 140px;
+  width: 140px;
+  border-radius: 70px;
+  padding: 5px;
+  border: 3px solid white;
   position: absolute;
   top: -70px;
   left: 550px;
@@ -51,11 +94,47 @@
   position: relative;
 }
 
-.title {
-  color: white;
+/* .title {
+  color: rgb(255, 247, 247);
   margin-top: 90px;
   text-align: center;
   font-weight: 500;
+  
+} */
+
+
+.title {
+  margin-top: 90px;
+  margin-left: 465px;
+  font-weight: 500;
+
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 40px;
+  color: white;
+}
+
+/* Animation */
+.title {
+  animation: animated-text 4s steps(29,end) 1s 1 normal both,
+             animated-cursor 600ms steps(29,end);
+             animation-iteration-count: infinite;
+
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 472px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(0,255,0,.75);}
+  to{border-right-color: transparent;}
 }
 
 .fsd {
@@ -114,12 +193,14 @@
   font-weight: bold;
 }
 .bg {
-  background-image: linear-gradient(
-    to right,
-    #1a2980 0%,
-    #26d0ce 51%,
-    #1a2980 100%
-  );
+  background-color: #70b2d9;
+background-image: linear-gradient(315deg, #70b2d9 0%, #39e5b6 74%);
+  
+}
+
+.counter-up{
+  width:1300px;
+  margin-left: 10px;
 }
 
 /* counter */

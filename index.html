@@ -21,6 +21,12 @@
       integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+    />
 
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
@@ -36,9 +42,9 @@
 
   <body>
     <!-- Top bar -->
-    <div class="container-fluid main">
+    <div class="container-fluid main bg">
       <div class="row row-1">
-        <div class="col">
+        <div class="col mt-3">
           <a
             href="https://www.linkedin.com/in/chandra-sekhar-visarapu-6b23111a8/"
             target="blank"
@@ -48,15 +54,14 @@
             ><i class="fab fa-border-icon fa-twitter icons-top"></i
           ></a>
           <a href="https://github.com/vchandu111" target="blank"
-            ><i class="fab fa-border-icon fa-github icons-top"></i
+            ><i class="fab fa-border-icon fa-github fa-gi icons-top"></i
           ></a>
 
           <i class="fab fa-border-icon fa-skype icons-top"></i>
-          <button class="btn-1">
-            <i class="fab fa-telegram-plane"></i> Hire Me
-          </button>
-          <button class="btn-1">
-            <i class="fas fa-download"></i> Download My Resume
+
+          <button class="btn-1 shadow-lg">
+            <i class="fas fa-download fa-resume"></i>
+            Download My Resume
           </button>
         </div>
       </div>
@@ -70,34 +75,26 @@
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
           />
-          <h1 class="title">Chandra Sekhar</h1>
+          <h1 class="title line-1 anim-typewriter">Chandra Sekhar</h1>
           <p class="fsd">Full Stack Developer</p>
 
           <p class="about">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-            eveniet, possimus odit vel quo nam sint commodi, aperiam voluptates
-            quae nostrum odio error alias illo temporibus animi eius, quod nulla
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-            numquam sunt,
+            A passionate Software Developer trained in Full-Stack Development,
+            Data Structure and Algorithm at Masai School Intensive Bootcamp.
+            Looking forward to join a company where I shall be able to
+            contribute towards individual and company's growth.
           </p>
         </div>
       </div>
       <div class="row row-3">
         <div class="col">
+          <i class="fas fa-map-marker-alt contact"> Visakhapatnam, India</i>
           <i class="fas fa-envelope contact"> vchanduu111@gmail.com</i
-          ><i class="fas fa-phone contact"> 91-9908401204</i
-          ><i class="fas fa-globe contact"
-            ><a
-              href="https://vchandu111.github.io/"
-              style="color: white; font-weight: lighter;"
-            >
-              myportfolio.com</a
-            ></i
-          >
+          ><i class="fas fa-phone contact"> 91-9908401204</i>
         </div>
       </div>
     </div>
-    <div style="height: 100px;"></div>
+    <div style="height: 100px"></div>
     <!-- Top bar -->
 
     <!-- tech Stacks -->
@@ -112,6 +109,7 @@
             data-aos="fade-right"
             data-aos-duration="2000"
           /><br />
+          <p class="stack-text">HTML</p>
         </div>
         <div class="col-md-4 mt-5">
           <img
@@ -120,6 +118,7 @@
             data-aos="zoom-in"
             data-aos-duration="2000"
           /><br />
+          <p class="stack-text">CSS</p>
         </div>
         <div class="col-md-4 mt-5">
           <img
@@ -128,93 +127,82 @@
             data-aos="fade-left"
             data-aos-duration="2000"
           /><br />
+          <p class="stack-text">BOOTSTRAP</p>
         </div>
         <div class="col-md-5 mt-5 offset-1">
           <img
-            src="https://image.flaticon.com/icons/svg/919/919825.svg"
+            src="Resources/js.svg"
             width="100px"
             data-aos="fade-right"
             data-aos-duration="2000"
           /><br />
+          <p class="stack-text">JAVASCRIPT</p>
         </div>
         <div class="col-md-5 mt-5">
           <img
-            src="https://image.flaticon.com/icons/svg/919/919851.svg"
-            width="80px"
+            src="Resources/react.svg"
+            width="100px height:120px"
             data-aos="fade-left"
             data-aos-duration="2000"
           /><br />
+          <p class="stack-text">REACT</p>
         </div>
       </div>
     </div>
 
-    <div style="height: 70px;"></div>
+    <div style="height: 70px"></div>
     <hr />
     <!-- Prof -->
     <div class="mb-5 mt-5">
       <h1 class="text-center tech-stacks"><strong>Proficiencies__</strong></h1>
     </div>
-    <div style="height: 40px;"></div>
+    <div style="height: 40px"></div>
 
     <div class="mt-5">
       <div class="container text-center">
         <div class="row">
           <div class="col-md-3">
-            <img
-              class="mb-2"
-              src="Resources/react1.svg"
-              style="width: 105px;"
-            />
-            <h4 class="text-muted" style="margin-top: 35px;">
+            <img class="mb-2" src="Resources/react1.svg" style="width: 105px" />
+            <h4 class="text-muted" style="margin-top: 35px">
               <strong>React App</strong>
             </h4>
-            <p class="text-center">
-              When it comes to react apps<br />I have the strength of Atlas
-            </p>
           </div>
           <div class="col-md-3">
             <img
               class="mb-2"
               src="Resources/database-solid.svg"
-              style="width: 93px;"
+              style="width: 93px"
             />
-            <h4 class="text-muted" style="margin-top: 20px;">
+            <h4 class="text-muted" style="margin-top: 20px">
               <strong>Backend</strong>
             </h4>
-            <p class="text-center">I am the one who runs<br />the show</p>
           </div>
           <div class="col-md-3">
             <img
               class="mb-2"
               src="Resources/css3-alt-brands.svg"
-              style="width: 93px; height: 120px;"
+              style="width: 93px; height: 120px"
             />
             <h4 class="text-muted mb-3 mt-1">
               <strong>Frontend</strong><br />
             </h4>
-            <p class="text-center">
-              Now just that I can<br />even host the show
-            </p>
           </div>
           <div class="col-md-3">
             <img
               class="mb-2"
-              style="height: 110px;"
+              style="height: 110px"
               src="Resources/Vector.svg"
-              style="width: 93px;"
+              style="width: 93px"
             />
             <h4 class="text-muted mt-3 mb-3">
               <strong>Data Structures</strong><br />
             </h4>
-            <p class="text-center">
-              Putting the right blocks in the<br />right place is just my thing
-            </p>
           </div>
         </div>
       </div>
     </div>
     <hr />
-    <div style="height: 50px;"></div>
+    <div style="height: 50px"></div>
     <!-- projects -->
 
     <div class="mb-5 mt-5">
@@ -224,7 +212,7 @@
       <div class="container text-center">
         <div class="row m-lg-5">
           <div class="col-lg-6 col-md-6 col-sm-12 mb-1">
-            <div class="card">
+            <div class="card h-100 shadow-lg bg-white">
               <div class="card-body shadow">
                 <img
                   class="img-fluid"
@@ -235,9 +223,8 @@
                 <hr />
                 <h4 class="card-title"><strong>Typing Game</strong></h4>
                 <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Aperiam quam dolorem repellendus tenetur! Fuga omnis tempora
-                  in officiis.
+                  An app designed with a combination of Typing and Word Beater
+                  game where users can check their typing speed and accuracy.
                 </p>
                 <a
                   class="card-link text-muted mt-5"
@@ -247,25 +234,19 @@
                   ><strong>&nbsp;Github&nbsp;</strong></a
                 >
                 <div class="row justify-content-center">
-                  <div
-                    style="margin-top: 28px; float: left; margin-left: 20px;"
-                  >
+                  <div style="margin-top: 28px; float: left; margin-left: 20px">
                     <i class="fab fa-js-square fa-2x fa-color"></i>
                   </div>
-                  <div
-                    style="margin-top: 30px; float: left; margin-left: 20px;"
-                  >
+                  <div style="margin-top: 30px; float: left; margin-left: 20px">
                     <img
-                      style="width: 30px;"
+                      style="width: 30px"
                       src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/121-css3-512.png"
                       alt=""
                     />
                   </div>
-                  <div
-                    style="margin-top: 30px; float: left; margin-left: 20px;"
-                  >
+                  <div style="margin-top: 30px; float: left; margin-left: 20px">
                     <img
-                      style="width: 30px;"
+                      style="width: 30px"
                       src="https://icon-library.net/images/bootstrap-icon-png/bootstrap-icon-png-10.jpg"
                       alt=""
                     />
@@ -276,7 +257,7 @@
           </div>
 
           <div class="col-lg-6 col-md-6 col-sm-12 mb-1">
-            <div class="card">
+            <div class="card h-100 shadow-lg bg-white">
               <div class="card-body shadow">
                 <img
                   class="img-fluid"
@@ -287,9 +268,8 @@
                 <hr />
                 <h4 class="card-title"><strong>Expense Manager</strong></h4>
                 <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Aperiam quam dolorem repellendus tenetur! Fuga omnis tempora
-                  in officiis.
+                  An app designed to let the user know their expenses and
+                  savings.
                 </p>
                 <a
                   class="card-link text-muted mt-5"
@@ -298,31 +278,21 @@
                   ><i class="fa fa-github"></i
                   ><strong>&nbsp;Github&nbsp;</strong></a
                 >
-                <a class="card-link text-muted" href="" target="blank"
-                  ><i class="fa fa-external-link"></i>&nbsp;<strong
-                    >Demo Link</strong
-                  ></a
-                >
+
                 <div class="row justify-content-center">
-                  <div
-                    style="margin-top: 28px; float: left; margin-left: 20px;"
-                  >
+                  <div style="margin-top: 28px; float: left; margin-left: 20px">
                     <i class="fab fa-js-square fa-2x fa-color"></i>
                   </div>
-                  <div
-                    style="margin-top: 30px; float: left; margin-left: 20px;"
-                  >
+                  <div style="margin-top: 30px; float: left; margin-left: 20px">
                     <img
-                      style="width: 30px;"
+                      style="width: 30px"
                       src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/121-css3-512.png"
                       alt=""
                     />
                   </div>
-                  <div
-                    style="margin-top: 30px; float: left; margin-left: 20px;"
-                  >
+                  <div style="margin-top: 30px; float: left; margin-left: 20px">
                     <img
-                      style="width: 30px;"
+                      style="width: 30px"
                       src="https://icon-library.net/images/bootstrap-icon-png/bootstrap-icon-png-10.jpg"
                       alt=""
                     />
@@ -332,8 +302,8 @@
             </div>
           </div>
 
-          <div class="col-lg-6 col-md-6 col-sm-12 mb-1">
-            <div class="card">
+          <div class="col-lg-6 col-md-6 col-sm-12 mb-1 mt-3">
+            <div class="card h-100 shadow-lg bg-white">
               <div class="card-body shadow">
                 <img
                   class="img-fluid"
@@ -344,9 +314,8 @@
                 <hr />
                 <h4 class="card-title"><strong>Cric App</strong></h4>
                 <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Aperiam quam dolorem repellendus tenetur! Fuga omnis tempora
-                  in officiis.
+                  A clone of Cric buzz app where you can get all information
+                  about international teams and players
                 </p>
                 <a
                   class="card-link text-muted mt-5"
@@ -355,26 +324,18 @@
                   ><i class="fa fa-github"></i
                   ><strong>&nbsp;Github&nbsp;</strong></a
                 >
-                <a class="card-link text-muted" href="" target="blank"
-                  ><i class="fa fa-external-link"></i>&nbsp;<strong
-                    >Demo Link</strong
-                  ></a
-                >
+
                 <div class="row justify-content-center">
-                  <div
-                    style="margin-top: 30px; float: left; margin-left: 20px;"
-                  >
+                  <div style="margin-top: 30px; float: left; margin-left: 20px">
                     <img
-                      style="width: 30px;"
+                      style="width: 30px"
                       src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/121-css3-512.png"
                       alt=""
                     />
                   </div>
-                  <div
-                    style="margin-top: 30px; float: left; margin-left: 20px;"
-                  >
+                  <div style="margin-top: 30px; float: left; margin-left: 20px">
                     <img
-                      style="width: 30px;"
+                      style="width: 30px"
                       src="https://icon-library.net/images/bootstrap-icon-png/bootstrap-icon-png-10.jpg"
                       alt=""
                     />
@@ -384,8 +345,8 @@
             </div>
           </div>
 
-          <div class="col-lg-6 col-md-6 col-sm-12 mb-1">
-            <div class="card">
+          <div class="col-lg-6 col-md-6 col-sm-12 mb-1 mt-3">
+            <div class="card h-100 shadow-lg bg-white">
               <div class="card-body shadow">
                 <img
                   class="img-fluid"
@@ -398,9 +359,8 @@
                   <strong>Hotel Management System</strong>
                 </h4>
                 <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Aperiam quam dolorem repellendus tenetur! Fuga omnis tempora
-                  in officiis.
+                  A website of hotel Hirato, where users can book rooms of their
+                  choice.
                 </p>
                 <a
                   class="card-link text-muted mt-5"
@@ -409,31 +369,21 @@
                   ><i class="fa fa-github"></i
                   ><strong>&nbsp;Github&nbsp;</strong></a
                 >
-                <a class="card-link text-muted" href="" target="blank"
-                  ><i class="fa fa-external-link"></i>&nbsp;<strong
-                    >Demo Link</strong
-                  ></a
-                >
+
                 <div class="row justify-content-center">
-                  <div
-                    style="margin-top: 28px; float: left; margin-left: 20px;"
-                  >
+                  <div style="margin-top: 28px; float: left; margin-left: 20px">
                     <i class="fab fa-js-square fa-2x fa-color"></i>
                   </div>
-                  <div
-                    style="margin-top: 30px; float: left; margin-left: 20px;"
-                  >
+                  <div style="margin-top: 30px; float: left; margin-left: 20px">
                     <img
-                      style="width: 30px;"
+                      style="width: 30px"
                       src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/121-css3-512.png"
                       alt=""
                     />
                   </div>
-                  <div
-                    style="margin-top: 30px; float: left; margin-left: 20px;"
-                  >
+                  <div style="margin-top: 30px; float: left; margin-left: 20px">
                     <img
-                      style="width: 30px;"
+                      style="width: 30px"
                       src="https://icon-library.net/images/bootstrap-icon-png/bootstrap-icon-png-10.jpg"
                       alt=""
                     />
@@ -443,8 +393,8 @@
             </div>
           </div>
 
-          <div class="col-lg-6 col-md-6 col-sm-12 mb-1">
-            <div class="card">
+          <div class="col-lg-6 col-md-6 col-sm-12 mb-1 mt-3 offset-md-3">
+            <div class="card h-100 shadow-lg bg-white">
               <div class="card-body shadow">
                 <img
                   class="img-fluid"
@@ -455,8 +405,8 @@
                 <hr />
                 <h4 class="card-title"><strong>Dog API</strong></h4>
                 <p class="card-text">
-                  This app lets you convert currency between various currency
-                  options available.
+                  This website fetches and displays images of dogs of particular
+                  breed using an API.
                 </p>
                 <a
                   class="card-link text-muted mt-5"
@@ -465,31 +415,21 @@
                   ><i class="fa fa-github"></i
                   ><strong>&nbsp;Github&nbsp;</strong></a
                 >
-                <a class="card-link text-muted" href="" target="blank"
-                  ><i class="fa fa-external-link"></i>&nbsp;<strong
-                    >Demo Link</strong
-                  ></a
-                >
+
                 <div class="row justify-content-center">
-                  <div
-                    style="margin-top: 28px; float: left; margin-left: 20px;"
-                  >
+                  <div style="margin-top: 28px; float: left; margin-left: 20px">
                     <i class="fab fa-js-square fa-2x fa-color"></i>
                   </div>
-                  <div
-                    style="margin-top: 30px; float: left; margin-left: 20px;"
-                  >
+                  <div style="margin-top: 30px; float: left; margin-left: 20px">
                     <img
-                      style="width: 30px;"
+                      style="width: 30px"
                       src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/121-css3-512.png"
                       alt=""
                     />
                   </div>
-                  <div
-                    style="margin-top: 30px; float: left; margin-left: 20px;"
-                  >
+                  <div style="margin-top: 30px; float: left; margin-left: 20px">
                     <img
-                      style="width: 30px;"
+                      style="width: 30px"
                       src="https://icon-library.net/images/bootstrap-icon-png/bootstrap-icon-png-10.jpg"
                       alt=""
                     />
@@ -532,16 +472,16 @@
 
     <!-- github -->
     <h1 class="tech-stacks mb-5">Github Commits</h1>
-    <div class="polaroid">
-      <img
-        src="Resources/github.png"
-        alt="5 Terre"
-        style="width: 100%;"
-        data-aos="zoom-in"
-        data-aos-duration="3000"
-      />
+
+    <!-- github live -->
+    <div class="calendar shadow-lg bg-white">
+      <!-- Loading stuff -->
+      Loading the data just for you.
     </div>
     <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
     <script type="text/javascript" src="index.js"></script>
+    <script>
+      new GitHubCalendar(".calendar", "vchandu111");
+    </script>
   </body>
 </html>
