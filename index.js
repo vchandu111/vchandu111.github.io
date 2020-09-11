@@ -26,7 +26,7 @@ counter_up.addEventListener("mouseover", () => {
         // Add inc to count and output in counter
         counter.innerText = count + inc;
         // Call function every ms
-        setTimeout(updateCount, 100);
+        setTimeout(updateCount, 50);
       } else {
         counter.innerText = `${target}+`;
       }
