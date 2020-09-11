@@ -15,6 +15,7 @@
 
 }
 
+
 .calendar{
   width:1000px;
 }
@@ -65,12 +66,16 @@
 
 .card-text{
   font-family: monospace;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: bold;
 }
 
 .fa-github{
-  color: teal;
+  color: white !important
+}
+
+.pro-git{
+  color: teal !important
 }
 
 .stack-text{
@@ -198,10 +203,9 @@ background-image: linear-gradient(315deg, #70b2d9 0%, #39e5b6 74%);
   
 }
 
-.counter-up{
+/* .counter-up{
   width:1300px;
-  margin-left: 10px;
-}
+} */
 
 /* counter */
 
@@ -275,4 +279,38 @@ div.polaroid {
   margin-bottom: 25px;
   margin-left: 140px;
 }
+
+.contactCard {
+  height:170px;
+  width:400px;
+  border-radius:5px;
+  background-color: #00BCD4;
+  color: white;
+}
+
+.contactCard>div{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.contactLine {
+  width: 20%;
+  background-color:white;
+  height:3px;
+  margin:5% 39%;
+}
+.icons-bottom {
+  margin-left: 15px;
+  margin-top: 10px;
+  color:  white !important;
+  border-width: 1px;
+  border-style: solid;
+  border-color:#00BCD4;
+  border-image: initial;
+  border-radius: 50% 50% 50% 50%;
+  padding: 5% 5% 5% 5%;
+  background-color: #00BCD4;
+}
+
+
 
